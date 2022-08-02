@@ -1,0 +1,166 @@
+*{
+  text-size-adjust: 20px;
+  color:white
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background: rgb(6,21,51);
+}
+header{
+  width: 100%;
+}
+.link{
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  background: rgba(12, 139, 197, 0.61);
+  text-align: center;
+}
+.link ul li{
+  list-style: none;
+  display: inline;
+}
+.link ul li a{
+   text-decoration: none;
+   font-size: 25px;
+   color: rgb(6,21,51);
+   padding: 20px 50px;
+}
+.link ul li a:hover{
+  background: rgb(6,21,51);
+  color: rgba(12, 139, 197, 0.61);
+}
+.row{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+}
+.col-2{
+  flex-basis: 48%;
+  padding: 100px 0;
+}
+.col-2 h1{
+  padding-top: 30px;
+  color: white;
+  margin-top: 50px;
+}
+.col-2 p{
+  color: rgb(140, 150, 160);
+  padding: 5px;
+}
+.col-2 a{
+  text-decoration: none;
+  font-size: 20px;
+  background: rgba(12, 139, 197, 0.61);
+  border: 1px solid rgba(12, 139, 197, 0.61);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.col-2 a:hover{
+  color: rgba(12, 139, 197, 0.61);
+  background: transparent;
+}
+.col-4 a{
+  text-decoration:none;
+  color: blue;
+  font-size: 20px;
+  border-radius: 5px;
+  background: rgba(12, 139, 197, 0.61);
+  border: 2px solid rgba(12, 139, 197, 0.61);
+  position: center;
+}
+ 
+footer{
+  background: rgba(12, 139, 197, 0.61);
+  width: 100%;
+}
+.col-3{
+  flex-basis: 30%;
+  padding: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.col-3 img{
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+,.col-3 p{
+  color: rgb(6,21,51);
+  font-size: 16px;
+}
+.col-3 h3{
+  margin-top: 80px;
+  color: rgb(140, 150, 160);
+  font-size: 20px;
+}
+.col-3 ul li{
+  list-style: none;
+}
+.col-3 ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+.col-3 ul li a:hover{
+  color: rgb(6,21,51);
+}
+.col-3 i{
+  width: 40px;
+  border-radius: 20px;
+  background: rgb(140, 150, 160);
+
+  
+}
+.copyright{
+  width: 100%;
+  background: rgb(6,21,51);
+  margin: auto;
+}
+.copyright p{
+   text-align: center;
+   padding: 15px;
+   color: gray;
+}
+form{
+
+  color: aliceblue;
+  margin-left:50%;
+  padding: 15px;
+}
+label{
+  position:center;
+  color:aliceblue;
+}
+.txt ul li {
+  border: 15px;
+  text-size-adjust: 50px;
+  margin-left: 30%;
+  padding-top: 30px;
+  color: white;
+  margin-top: 7px;
+}
+.descript ul li{
+  border: 30px;
+  margin-left: 20px;
+  color: antiquewhite;
+}
+button{
+  background-color: cadetblue;
+  color: black;
+  size: 20px;
+  position: center;
+}
+.Div3 p{
+  color: black;
+  padding: 7px;
+}
+.div4 p{
+  color: black;
+}

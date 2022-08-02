@@ -1,0 +1,39 @@
+body{
+    background: rgb(6,21,51);
+
+}
+header{
+    
+    width: 100%;
+  }
+  .link{
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    background: rgba(12, 139, 197, 0.61);
+    text-align: center;
+  }
+  .link ul li{
+    list-style: none;
+    display: inline;
+  }
+  .link ul li a{
+     text-decoration: none;
+     font-size: 25px;
+     color: rgb(6,21,51);
+     padding: 20px 50px;
+  }
+  .link ul li a:hover{
+    background: rgb(6,21,51);
+    color: rgba(12, 139, 197, 0.61);
+  }
+  form{
+    margin-right: 20px;
+
+  }
+  label{
+    border: 9px;
+
+  }
+  
